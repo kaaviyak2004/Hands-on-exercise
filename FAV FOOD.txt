@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fav Food</title>
+    <style>
+      h1 {
+        position: absolute;
+        top: 140px;
+        left: 250px;
+      }
+      h3 {
+        color: black;
+        text-align: center;
+      }
+          p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 50%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 70px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div style="background-color: powderblue" class="food_image">
+          <img
+            id="titleImage"
+            src="https://www.schwinnng.com/static/sitefiles/blog/naturalaphrodisiacfoods.jpg" width="800" height="700"
+            alt="pic3"
+          />
+          <h1 id="titleName"> SOME OF MY FAV <br>  FOODS</h1>
+        </div>
+        <div style="background-color: yellow" class="food_image">
+          <h3 id="favFood1">PIZZA</h3>
+          <p id="foodDescription1">Pizza is a pizza</p>
+          <img id="favFoodImage1"
+            src="https://portlandiapielady.com/wp-content/uploads/2020/05/Feature-1-1200x1200.jpg" width="800" height="700"
+            alt="pic2"
+          />
+        </div>
+        <div style="background-color: purple" class="food_image">
+          <h3 id="favFood2">fried chicken</h3>
+          <p id="foodDescription2">It is very delicious</p>
+          <img id="favFoodImage2"
+            src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-1280/southern-fried-chicken-f9ddb9.jpg" width="800" height="700"
+            alt="pic1"
+          />
+        </div>
+        <div style="background-color: red" class="food_image">
+          <h3 id="favFood3">SALAD</h3>
+          <p id="foodDescription3">It is very healthy</p>
+          <img id="favFoodImage3"
+            src="https://www.ruthsinternationalkitchen.com/wp-content/uploads/2016/06/greeksalad.jpg" width="800" height="700"
+            alt="pic4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
